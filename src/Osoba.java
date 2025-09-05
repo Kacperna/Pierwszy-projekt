@@ -7,6 +7,10 @@ public abstract class Osoba {
         this.imie = imie;
         this.nazwisko = nazwisko;
     }
+    public Osoba(){
+       imie = "Edward";
+       nazwisko = "Lebiocki";
+    }
 
     public String getNazwisko() {
         return nazwisko;
